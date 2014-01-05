@@ -3,56 +3,48 @@
     height: 100%;
     width: 100%;
     z-index: 99;
-    background-color:#111;
+    background-color:#f50;
     font-family: 'Droid Sans', sans-serif;
-    color:#f22;
+    color:#fff;
     text-align: center;
     font-size: 4rem;
-    text-shadow: 0px 0px 20px #000;
+    text-shadow: 0px 0px 20px #a10;
     padding: 0px;
     position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;    
+    top: 0; right: 0; bottom: 0; left: 0;
 }
-
 /*Body bg stuff and fonts*/
 html { 
-    background-color:#111;
-    background: url(bg_world.jpg) no-repeat center center fixed; 
+    background-color:#f50;
+    background: url(technology.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
-
-
 body
 {
-    background-color:#111;
+    background-color:#f50;
     font-family: 'Droid Sans', sans-serif;
     text-decoration: none;
     opacity:0.85;
-    color:#333;
+    color:#fff;
     position: inherit;
     padding: 6px;
 }
-
-
-
 /*Title bar styling*/
-
 
 div.rss-title
 {
-    background: #111;
-    color: #333;
+    background: #f50;
+    color: #fff;
     display: inline-block;
     text-align: left;
     font-size: 3em;
     padding-bottom: 2px;
-    border-bottom: 2px solid #111;
+    border-bottom: 2px solid #f50;
     font-family: 'Droid Sans', sans-serif;
-    text-shadow: 0px 0px 5px #000;
+    text-shadow: 0px 0px 5px #a10;
     
      /* text-shadow: 1px 1px 1px #c20; */   
 }
@@ -60,6 +52,7 @@ select
 {   
     background: transparent;
     padding: 7px;
+    color:#222;
     border: none;
     float: right;
     font-size: 2em;
@@ -67,19 +60,16 @@ select
     outline: 0px;
     cursor:pointer;
     font-family: 'Droid Sans', sans-serif;
-    background: #000;
-    color: #f22;
+    background: #ee4400;
+    color: #fefefe;
 }
-
 div.rss-title a
 {
-    background: #111;
-    color: #f22;
+    background: #f50;
+    color: #fff;
     margin: 0px;
     display: inline;
 } 
-
-
 /*RSS Feed styling*/
 #rssdata ul.rss-items
 {
@@ -87,45 +77,39 @@ div.rss-title a
     margin: 0;
     padding: 0px;
     font-size: 1.5em;
-    font-family: 'Droid Sans', serif;
-	
+    font-family: 'Droid Sans', serif;	
 }
-
 #rssdata ul.rss-items li
 {
     display: block;
     margin: 0;
     padding: 0;
     text-indent: 0px;
-
 }
-
 #rssdata ul.rss-items a
 {
     margin: 0;
     display: block;
     padding: 3px 3px 3px 3px;
-    background: #222;
-    color: #ddd;
+    background: #bbb;
+    color: #333;
     text-decoration: none;
-    border-bottom: 1px solid #111;
+    border-bottom: 1px solid #ccc;
     text-indent: 0px;
 }
 
 #rssdata ul.rss-items a:hover
 {
-    background: #ccc;
-    color: #222;
+    background: #f50;
+    color: #fff;
     text-decoration: none;
-    text-shadow: 0px 0px 5px #666;
+    text-shadow: 0px 0px 5px #a10;
 } 
-
-
 /*RSS Footer styling*/
 .rss-footer
 {
-    background: #111;
-    color: #333;
+    background: #f50;
+    color: #fff;
     height: 90px;
     display: block;
     text-decoration: none;
@@ -133,10 +117,9 @@ div.rss-title a
     font-family: 'Droid Sans', sans-serif;
     text-decoration: none;
     opacity:0.85;
-    color:#333;
+    color:#fff;
     position: inherit;
-    padding: 6px;
-    
+    padding: 6px;   
 }
 
 

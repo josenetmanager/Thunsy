@@ -6,15 +6,14 @@
 	<link href=
 	'http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 
-	<title>&#187;Geek Virtual Informatica</title>
-	<h3>Informatica en general</h3>
+	<title>&#187;Agregador de noticias RD</title>
 
 	<!-- Meta tags. So inception. So wow.  -->
 	<meta name="descripcion" content="Agregador de noticias tecnológicas">
 	<meta name="palabras clave" content="Noticia,Technologia,Juego,Hacking,Seguridad,Informatica,Redes,Linux,Android,Tech,Nerd,Geek">
 	<meta name="autor" content="usuario" >
 	<meta charset="UTF-8">
-	<link rel="shortcut icon" href="http://geekvirtual.com/noticia.ico" />
+	<link rel="shortcut icon" href="http://geekvirtual.com/favicon_gaming.ico" />
 
 	<!-- jQuery from Google embed code -->
 	<script src=
@@ -23,7 +22,7 @@
 
 
 	<!-- Stylesheet linker code -->
-	<link href="world.css" rel="stylesheet" type="text/css">
+	<link href="informatica.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -31,24 +30,22 @@
 	<!-- Big orange banner code -->
 		<div id="splashscreen" class="loading">		
 			<center><h2>
-    &#187;Informatica
+    &#187;Informatica...
 	</h2></center></ul></div>	
-	
 	
 	<!-- Div container for article list -->
 	<div id="rssdata">
 	<select value="Topics" id="nbmenu" onchange="if (this.value) window.location.href=this.value">
-  <option value="index.html" >Tecnologia internacional</option>
-  <option value="noticia.html">Noticia local</option>
+  <option value="index.html" >Internacionales</option>
+  <option value="noticia.html">Locales</option>
   <option value="hacking.html">Hacking</option>
   <option value="informatica.html" selected >Informatica</option>
   </select>
 
 	<div class="rss-title">
 		<a href="javascript:location.reload(true);" style=
-		"text-decoration:none" ><strong> &#187;Geek Virtual RD</strong></a>
+		"text-decoration:none" ><strong> &#187;Agregador de noticias RD</strong></a>
 	</div>
-
 
 	<ul class="rss-items"></ul>
 	<ul class="rss-footer">
@@ -57,7 +54,6 @@
 
 	<!-- Loading message -->
 
-			
 	<!-- jQuery content grabber from Pipes -->
 	
 	<script type="text/Javascript">
@@ -72,7 +68,7 @@
 			{
 	$(data.value.items).each(function(index,item)
 			{
-			var item_html = '<a href="'+item.link+'" target="_blank"><font color="#f44">&nbsp;&#187;&nbsp;</font>'+item.title+'<\/a>';
+			var item_html = '<a href="'+item.link+'" target="_blank"><font color="#8bee04">&nbsp;&#187;&nbsp;</font>'+item.title+'<\/a>';
 			$('#rssdata ul.rss-items').append(item_html);
 				});
 			$('#rssdata ul.rss-items').fadeIn('3000,swing');
@@ -80,20 +76,11 @@
 			});
 	</script>
 		<!-- Orange footer bar for license or whatever -->
-
-	
-
+		
 	<!-- Google analytics -->
 	<!-- Replace this with your own code if you use this -->
 	<script>
-  //	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  //	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  //	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  //	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  // 	ga('create', 'UA-40528442-1', 'newsbeard.com');
- // 	ga('send', 'pageview');
 	</script>
-
  </body>
 </html>
